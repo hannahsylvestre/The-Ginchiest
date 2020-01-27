@@ -1,0 +1,503 @@
+body{
+background-color:#1D2E4D;
+font-family: 'Montserrat', sans-serif;
+box-sizing:border-box;
+}
+
+/* Header */
+.logo img{
+
+	height:6rem;
+}
+
+.nav{
+
+/*	font-weight:;
+	font-size:; */
+	text-transform: uppercase;
+	letter-spacing: .25rem;
+	margin: .5rem;
+	color: white;
+}
+
+.nav:hover{
+	color: white;
+}
+
+.menu{
+
+	background-color:#1D2E4D;
+}
+
+.vertical{
+
+	background-color:#1D2E4D;
+}
+
+header{
+
+	background-color:#122C4E;
+	padding: 2rem;
+
+}
+
+/* Hero */
+.hero{
+
+/*	padding-top: 10rem;
+	padding-bottom:10rem;*/
+/*	background-image: url(../img/hero_mobile.jpg);
+	background-size: cover;
+	background-position:center;*/
+	width:100%;
+	background-color:#5b0a19;
+}
+
+.sm-heroImg {
+	width:100%;
+}
+
+.sm-heroImg img {
+	width:100;
+}
+
+.hero h1{
+
+	margin-left:2rem;
+	font-family: 'Solway', sans-serif;
+	font-size: 2.5rem;
+	font-weight: 900;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	/*text-align: center;*/
+	color: #fff;
+	line-height: 1.2;
+}
+
+.hero p{
+	margin: 1rem 2rem;
+	font-size: 1rem;
+	color: #fff;
+}
+
+/* Services */
+.services{
+	padding: 2rem;
+	background-color:#FAEADD;
+
+}
+
+.services h1{
+	font-family: 'Solway';
+	font-weight: 900;
+	font-size: 1.5rem;
+	letter-spacing: 1px;
+}
+
+.services img{
+	margin-bottom: 1.5rem;
+	
+}
+
+/* Booking */
+
+.orbit{
+
+	display:none;
+}
+
+.booking{
+	padding: 1rem;
+
+}
+
+.booking h2{
+
+	font-family: 'Solway', sans-serif;
+	font-size: 2rem;
+	letter-spacing: 5px;
+	text-transform: uppercase;
+	text-align: center;
+	font-weight: 900;
+}
+
+.booking .grid-x{
+
+	background-color:#FBEBDB;
+}
+
+.booking p{
+
+	padding-left: 1rem;
+}
+
+.booking .content{
+
+	padding: 2rem 3rem;
+}
+
+.booking .button{
+	background-color:#E2234B;
+}
+
+.booking thead, .booking tbody {
+    border: 0;
+    background-color: transparent;
+}
+
+/* Quotes */
+
+.quotation{ 
+
+	display: none;
+
+ }
+
+.quotes{
+
+	background-color: #fff;
+	padding:6rem 0;
+
+
+}
+
+.quotes h1{
+
+	text-align: center;
+	text-transform: uppercase;
+	letter-spacing: 5px;
+	font-family: 'Solway', sans-serif;
+	font-weight: 900;
+	font-size: 2rem;
+	margin-bottom: 1rem;
+
+}
+
+.quotes p{
+
+	font-size: 1rem;
+	text-align: center;
+}
+
+.quotes blockquote{
+
+	margin:0;
+	padding:0;
+	border-left:0;
+	/*background-color:#666;*/
+}
+
+/* Footer */
+
+	.footer {
+
+	background-color: #fff;
+	padding-top: 2rem;
+	padding-bottom: 2rem;
+
+}
+
+.footer h1 {
+	font-family:'Solway', sans-serif;
+	font-size: 2rem;
+	font-weight: 900;
+	text-align: center;
+	letter-spacing: 5px;
+	text-transform: uppercase;
+	margin-bottom: 2rem;
+
+}
+
+.footer blockquote {
+
+	margin:0;
+	padding:0;
+	border-left:0;
+
+}
+
+.footer p {
+	text-align:center;
+}
+
+/* Style all font awesome icons */
+.icons{
+
+	margin: 0 auto;
+	text-align:center;
+}
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+  opacity: 1;
+  color:#fff;
+}
+
+/* Set a specific color for each brand */
+
+/* Facebook */
+.fa-facebook {
+  background: #E2234B;
+  color: white;
+}
+
+/* Twitter */
+.fa-twitter {
+  background: #E2234B;
+  color: white;
+}
+
+/* Instagram */
+.fa-instagram {
+  background: #E2234B;
+  color: white;
+}
+
+@media screen and (min-width: 40em){
+
+	body{
+	background-color:#1D2E4D;
+	font-family: 'Montserrat', sans-serif;
+	}
+
+	.sm-heroImg {
+		display:none;
+	}
+
+	/* Header */
+	.logo img{
+
+		height:6rem;
+	}
+
+	.nav{
+
+	/*	font-weight:;
+		font-size:; */
+		text-transform: uppercase;
+		letter-spacing: .25rem;
+		margin: .5rem;
+		color: white;
+	}
+
+	.nav:hover{
+		color: white;
+	}
+
+	header{
+
+		background-color:#122C4E;
+		padding: 2rem;
+
+	}
+
+	/* Hero */
+	.hero{
+
+		padding-top: 10rem;
+		padding-bottom:10rem;
+		background-image: url(../img/hero.jpg);
+		background-size: cover;
+	}
+
+	.hero h1{
+
+		font-family: 'Solway', sans-serif;
+		font-size: 2.5rem;
+		font-weight: 900;
+		text-transform: uppercase;
+		letter-spacing: 2px;
+		/*text-align: center;*/
+		color: #fff;
+		line-height: 1.2;
+	}
+
+	.hero p{
+
+		font-size: 1rem;
+		color: #fff;
+	}
+
+	/* Services */
+	.services{
+		padding: 2rem;
+		background-color:#FAEADD;
+
+	}
+
+	.services h1{
+		font-family: 'Solway';
+		font-weight: 900;
+		font-size: 1.5rem;
+		letter-spacing: 1px;
+	}
+
+	.services img{
+		margin-bottom: 1.5rem;
+		
+	}
+
+	/* Booking */
+
+	.orbit{
+
+		display:block;
+	}
+
+	.booking{
+		padding: 6rem;
+
+	}
+
+	.booking h2{
+
+		font-family: 'Solway', sans-serif;
+		font-size: 2rem;
+		letter-spacing: 5px;
+		text-transform: uppercase;
+		text-align: center;
+		font-weight: 900;
+	}
+
+	.booking .grid-x{
+
+		background-color:#FBEBDB;
+	}
+
+	.booking p{
+
+		padding-left: 1rem;
+	}
+
+	.booking .content{
+
+		padding: 2rem 3rem;
+	}
+
+	.booking .button{
+		background-color:#E2234B;
+	}
+
+	.booking thead, .booking tbody {
+	    border: 0;
+	    background-color: transparent;
+	}
+
+	/* Quotes */
+
+	.quotation{
+
+		display:block;
+	}
+
+	.quotes{
+
+		background-color: #fff;
+		padding:6rem 0;
+
+
+	}
+
+	.quotes h1{
+
+		text-align: center;
+		text-transform: uppercase;
+		letter-spacing: 5px;
+		font-family: 'Solway', sans-serif;
+		font-weight: 900;
+		font-size: 2rem;
+		margin-bottom: 1rem;
+
+	}
+
+	.quotes p{
+
+		font-size: 1rem;
+		text-align: center;
+	}
+
+	.quotes blockquote{
+
+		margin:0;
+		padding:0;
+		border-left:0;
+		/*background-color:#666;*/
+	}
+
+	/* Footer */
+
+		.footer {
+
+		background-color: #fff;
+		padding-top: 2rem;
+		padding-bottom: 2rem;
+
+	}
+
+	.footer h1 {
+		font-family:'Solway', sans-serif;
+		font-size: 2rem;
+		font-weight: 900;
+		text-align: center;
+		letter-spacing: 5px;
+		text-transform: uppercase;
+		margin-bottom: 2rem;
+
+	}
+
+	.footer blockquote {
+
+		margin:0;
+		padding:0;
+		border-left:0;
+
+	}
+
+	.footer p {
+		text-align:left;
+	}
+
+	/* Style all font awesome icons */
+	.fa {
+	  padding: 20px;
+	  font-size: 30px;
+	  width: 50px;
+	  text-align: center;
+	  text-decoration: none;
+	}
+
+	/* Add a hover effect if you want */
+	.fa:hover {
+	  opacity: 1;
+	  color:#fff;
+	}
+
+	/* Set a specific color for each brand */
+
+	/* Facebook */
+	.fa-facebook {
+	  background: #E2234B;
+	  color: white;
+	}
+
+	/* Twitter */
+	.fa-twitter {
+	  background: #E2234B;
+	  color: white;
+	}
+
+	/* Instagram */
+	.fa-instagram {
+	  background: #E2234B;
+	  color: white;
+	}
+	
+}
